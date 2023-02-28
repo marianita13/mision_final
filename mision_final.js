@@ -24,7 +24,7 @@ mostar.addEventListener('click',()=>{
         suma1=sumas+14
         nuevo.splice(5,0,{nombre:"sergio",puntos:suma1})
         nuevo.splice(7,1)
-        nuevo.pop(nuevo[9])
+        nuevo.pop(nuevo[9]) 
         b1=true
     console.log(nuevo);
     }else if (opcion==3){
